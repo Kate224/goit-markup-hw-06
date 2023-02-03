@@ -96,13 +96,18 @@
 					</div>
 
 					<label class="policy">
-						<input type="checkbox" name="privacy" class="check-privacy">
+						<input class="check-privacy visually-hidden"
+						id="policy"
+						value="true"
+						type="checkbox"
+						name="privacy"
+						required>
 						<div class="box-check">
-							<svg class="privacy-icon" width="18" height="18">
+							<svg class="privacy-icon" width="10" height="8">
 								<use href="./images/sprite.svg#icon-click"></use>
 							</svg>
 						</div>
-						<span class="privacy-text">I accept the terms and conditions of the <a class="policy-link" href="">Privacy Policy</a></span>
+						<p>I accept the terms and conditions of the <a class="policy-link" href=""> Privacy Policy</a></p>
 					</label>
 					<button type="submit" class="primary-button">Send</button>
 				</form>
